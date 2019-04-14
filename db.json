@@ -1,0 +1,311 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Ankesh Sharma",
+      "contactPreference": "email",
+      "email": "ankesh@oracle.com",
+      "phone": "8104234576",
+      "skills": [
+        {
+          "skillName": "JavaScript",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Node JS",
+          "experienceInYears": 1,
+          "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "Rahul Dravid",
+      "contactPreference": "phone",
+      "email": "rahul@oracle.com",
+      "phone": "9985723456",
+      "skills": [
+        {
+          "skillName": "Angular",
+          "experienceInYears": 2,
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "HTML",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "SQL",
+          "experienceInYears": 3,
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "Node js",
+          "experienceInYears": "1.5",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "Ramesh Kumar",
+      "contactPreference": "email",
+      "email": "ramesh@oracle.com",
+      "phone": "9887623577",
+      "skills": [
+        {
+          "skillName": "React",
+          "experienceInYears": "2",
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Node JS",
+          "experienceInYears": "1",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullName": "Chris Matt Jr",
+      "contactPreference": "email",
+      "email": "chrisjr@oracle.com",
+      "phone": "1034562367",
+      "skills": [
+        {
+          "skillName": "HTML",
+          "experienceInYears": "2.5",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "CSS",
+          "experienceInYears": "2.5",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "JavaScript",
+          "experienceInYears": "2",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Angular",
+          "experienceInYears": "2",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Node JS",
+          "experienceInYears": "1.5",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullName": "David English",
+      "contactPreference": "email",
+      "email": "davidenglish@oracle.com",
+      "phone": "24576889",
+      "skills": [
+        {
+          "skillName": "SQL",
+          "experienceInYears": "12.5",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "HRMS",
+          "experienceInYears": "10",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "Project Management",
+          "experienceInYears": "12",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "JavaScript",
+          "experienceInYears": "8",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "Angular",
+          "experienceInYears": "2",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullName": "Mudit Gupta",
+      "contactPreference": "email",
+      "email": "mudig@oracle.com",
+      "phone": "9886521345",
+      "skills": [
+        {
+          "skillName": "HTML",
+          "experienceInYears": "8",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "CSS",
+          "experienceInYears": "8",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Node JS",
+          "experienceInYears": "1",
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "JavaScript",
+          "experienceInYears": "12",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "Java",
+          "experienceInYears": "5",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "JQuery",
+          "experienceInYears": "10",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "OJET",
+          "experienceInYears": "2.5",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "BootStrap",
+          "experienceInYears": "4",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Angular",
+          "experienceInYears": "2",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "React",
+          "experienceInYears": "1",
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Vue",
+          "experienceInYears": "0.5",
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Express JS",
+          "experienceInYears": "0.5",
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Python",
+          "experienceInYears": "4",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullName": "Mike Clarke",
+      "contactPreference": "email",
+      "email": "mike@oracle.com",
+      "phone": "452367631",
+      "skills": [
+        {
+          "skillName": "JavaScript",
+          "experienceInYears": "1",
+          "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullName": "Adam G",
+      "contactPreference": "email",
+      "email": "adamg@oracle.com",
+      "phone": "562387451",
+      "skills": [
+        {
+          "skillName": "React",
+          "experienceInYears": "2.5",
+          "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullName": "Keerthana V",
+      "contactPreference": "email",
+      "email": "keerthanav@oracle.com",
+      "phone": "",
+      "skills": [
+        {
+          "skillName": "React",
+          "experienceInYears": "3.5",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullName": "Abhiram V",
+      "contactPreference": "email",
+      "email": "abhiramv@oracle.com",
+      "phone": "76452346",
+      "skills": [
+        {
+          "skillName": "HTML",
+          "experienceInYears": "1",
+          "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullName": "Arun Kumar",
+      "contactPreference": "email",
+      "email": "arunk@oracle.com",
+      "phone": "9867452341",
+      "skills": [
+        {
+          "skillName": "Project Management",
+          "experienceInYears": "7",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullName": "Sachin T",
+      "contactPreference": "email",
+      "email": "sachin@oracle.com",
+      "phone": "7645612398",
+      "skills": [
+        {
+          "skillName": "Java",
+          "experienceInYears": "2",
+          "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullName": "Rahul Gupta",
+      "contactPreference": "email",
+      "email": "rahulg@oracle.com",
+      "phone": "7645298671",
+      "skills": [
+        {
+          "skillName": "Data Science",
+          "experienceInYears": "2.5",
+          "proficiency": "intermediate"
+        }
+      ]
+    }
+  ]
+}

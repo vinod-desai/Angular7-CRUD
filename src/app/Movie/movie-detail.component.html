@@ -1,0 +1,67 @@
+<!-- Modal -->
+<div id="myMovieModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg" *ngIf="movieInfo">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header modal-hdr">
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+        <h3 class="modal-title">{{ movieInfo.Title }}</h3>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="{{ movieInfo.Poster }}" class="thumbnail" />
+          </div>
+          <div class="col-md-8">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <strong>Genre:</strong>{{ movieInfo.Genre }}
+              </li>
+              <li class="list-group-item">
+                <strong>Released:</strong>{{ movieInfo.Released }}
+              </li>
+              <li class="list-group-item">
+                <strong>Rated:</strong>{{ movieInfo.Rated }}
+              </li>
+              <li class="list-group-item">
+                <strong>IMDB Rating:</strong>{{ movieInfo.imdbRating }}
+              </li>
+              <li class="list-group-item">
+                <strong>Director:</strong>{{ movieInfo.Director }}
+              </li>
+              <li class="list-group-item">
+                <strong>Writer:</strong>{{ movieInfo.Writer }}
+              </li>
+              <li class="list-group-item">
+                <strong>Actors:</strong> {{ movieInfo.Actors }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div style="margin: 2%">
+            <h3>Plot</h3>
+            {{movieInfo.Plot}}
+            <hr />
+            <a
+              href="http://imdb.com/title/{{ movieInfo.imdbID }}"
+              target="_blank"
+              class="btn btn-info"
+              >View IMDB</a
+            >
+            <button type="button" class="btn btn-default pull-right" data-dismiss="modal">
+                Close
+              </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">
+        Close
+      </button>
+    </div> -->
+  </div>
+</div>

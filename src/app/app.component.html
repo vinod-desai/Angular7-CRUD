@@ -1,4 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<!--The content below is only a placeholder and can be replaced.
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -16,6 +16,48 @@
   <li>
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
-</ul>
+</ul> 
+<router-outlet></router-outlet> -->
 
-<router-outlet></router-outlet>
+<!-- <div class="container">
+  <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+          <li>
+              <a routerLinkActive="active" routerLink="home">Home</a>
+          </li>
+          <li>
+              <a routerLinkActive="active" routerLink="employees">List</a>
+          </li>
+          <li>
+              <a routerLinkActive="active" routerLink="employees/create">Create</a>
+          </li>
+      </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</div> -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Angular App</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a routerLinkActive="active" routerLink="home">Home</a></li>
+      <li><a routerLinkActive="active" routerLink="employees">Employees</a></li>
+      <li>
+        <a routerLinkActive="active" routerLink="employees/create"
+          >Create Employee</a
+        >
+      </li>
+      <li>
+          <a routerLinkActive="active" routerLink="movie"
+            >Search Movies</a
+          >
+        </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="margin-top:60px">
+  <router-outlet></router-outlet>
+</div>

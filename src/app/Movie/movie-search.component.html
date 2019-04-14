@@ -1,0 +1,57 @@
+<!-- <div *ngIf="movies">
+  <div *ngFor="let movie of movies">
+    <p>{{ movie.Title }}</p>
+  </div>
+  >
+</div> -->
+
+<div id="container" class="container theme-black">
+  <div class="jumbotronCust text-center">
+    <h1>MovieURL</h1>
+    <p>Search for any Movie, TV Shows .....</p>
+    <form
+      class="form-inline"
+      name="searchTextForm"
+      (ngSubmit)="searchMovies()"
+    >
+      <div class="input-group">
+        <input
+          type="text"
+          name="search"
+          class="form-control"
+          size="50"
+          [(ngModel)] = "searchText"
+          placeholder="Search Movie, TV Show ....."
+          required
+        />
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="row">
+    <div *ngFor = "let movie of movies">
+    <div class="col-sm-3 movieContainer text-center">
+      <img
+        src="{{ movie.Poster }}"
+        class="moviePoster"
+      />
+      <h3>{{ movie.Title }}</h3>
+      <p>{{ movie.Year }}</p>
+      <div>
+        <!-- <a
+          target="_blank"
+          class="btn btn-info"
+          href="https://www.imdb.com/title/{{movie.imdbID}}"
+          >View Details</a
+        > -->
+        <button class="btn btn-info" (click)="viewMovieDetails(movie.imdbID)"
+        title="View Details" data-toggle="modal" data-target="#myMovieModal">View Details</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<app-movie-detail [movieInfo] = "movieDetail"></app-movie-detail>
