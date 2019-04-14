@@ -5,10 +5,10 @@ Delete Employee.
 
 Search for any Movie, TV Show.
 
-## Application Screenshot
+## Application Screenshots
 
-## Application Images
-
+Add Employee
 ![](images/Angular7_AddEmployee.png)
 
+Edit Employee
 ![](images/Angular7_EditEmployee.png)
